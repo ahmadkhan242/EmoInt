@@ -1,11 +1,9 @@
-Winter Internship 2021 coding assignment to predict intensity of emotion.
-
 Problem website - https://www.google.com/url?sa=D&q=https://saifmohammad.com/WebPages/EmotionIntensity-SharedTask.html&ust=1607168520000000&usg=AOvVaw36bG8H9EL2CIUJy3tqvBva&hl=en&source=gmail
 For this we have to use Anger and Joy classes.
 All dataset can be downloaded from the above website.
 
 -----------------------------------Approachs------------------------------------------ 
-For this Assignment I had use Two approachs.
+Two approachs.
 1.) Based on dataset.
     a.) First used Raw data.
     b.) Pre-processed all dataset.(Explained Below)
@@ -16,7 +14,7 @@ For this Assignment I had use Two approachs.
     c.) Used Twitter Glove Embedding.
     
 -----------------------------------Models-------------------------------------------- 
-I had used Three model 
+Three model 
 1.) Random Forest Regressor.
 2.) SVM.
 3.) Simple MLP using keras(run for 100 epochs).
@@ -127,6 +125,3 @@ Following are the best result obtain in test set for each approach.
         1         Spearmanr  0.576765
         2   Pearsonr >= 0.5  0.382190
         3  Spearmanr >= 0.5  0.382472
-        
-        
-Results for all Approaches are present in Jupyter notebook of each class.
